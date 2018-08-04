@@ -1,0 +1,10 @@
+D:\NewProject\Trunk\TestTool\bin\Release\PlayerInfoLib.dll
+D:\NewProject\Trunk\TestTool\bin\Release\PlayerInfoLib.pdb
+D:\NewProject\Trunk\TestTool\PlayerInfoLib\obj\Release\PlayerInfoLib.dll
+D:\NewProject\Trunk\TestTool\PlayerInfoLib\obj\Release\PlayerInfoLib.pdb
+D:\NewProject\Trunk\TestTool\PlayerInfoLib\obj\Release\PlayerInfoLib.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\GameInfo\PlayerInfoLib\obj\Release\PlayerInfoLib.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\GameInfo\PlayerInfoLib\obj\Release\PlayerInfoLib.dll
+D:\ProjectA\TestTools\GameInfo\PlayerInfoLib\obj\Release\PlayerInfoLib.pdb
+D:\ProjectA\TestTools\bin\Release\PlayerInfoLib.dll
+D:\ProjectA\TestTools\bin\Release\PlayerInfoLib.pdb

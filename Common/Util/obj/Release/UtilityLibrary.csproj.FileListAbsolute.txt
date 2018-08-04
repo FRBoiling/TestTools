@@ -1,0 +1,4 @@
+D:\NewProject\Trunk\TestTool\bin\Release\UtilityLibrary.dll
+D:\NewProject\Trunk\TestTool\bin\Release\UtilityLibrary.pdb
+D:\NewProject\Trunk\TestTool\UtilityLibrary\obj\Release\UtilityLibrary.dll
+D:\NewProject\Trunk\TestTool\UtilityLibrary\obj\Release\UtilityLibrary.pdb

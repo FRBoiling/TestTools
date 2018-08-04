@@ -1,0 +1,5 @@
+D:\ProjectA\TestTools\bin\Release\TcpLib.dll
+D:\ProjectA\TestTools\bin\Release\TcpLib.pdb
+D:\ProjectA\TestTools\Common\Communication\obj\Release\Communication.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\Common\Communication\obj\Release\TcpLib.dll
+D:\ProjectA\TestTools\Common\Communication\obj\Release\TcpLib.pdb

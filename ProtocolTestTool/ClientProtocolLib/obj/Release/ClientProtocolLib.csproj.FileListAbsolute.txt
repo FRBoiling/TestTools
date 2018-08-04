@@ -1,0 +1,7 @@
+D:\ProjectA\TestTools\ProtocolTestTool\bin\Release\LibClientProtocol.dll
+D:\ProjectA\TestTools\ProtocolTestTool\bin\Release\LibClientProtocol.pdb
+D:\ProjectA\TestTools\bin\Release\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\bin\Release\Message.ClientProtocol.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Release\ClientProtocolLib.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Release\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Release\Message.ClientProtocol.pdb

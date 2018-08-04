@@ -1,0 +1,7 @@
+D:\ProjectA\TestTools\Common\Log\obj\Debug\Log.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\Common\bin\Debug\LogLibrary.dll
+D:\ProjectA\TestTools\Common\bin\Debug\LogLibrary.pdb
+D:\ProjectA\TestTools\bin\Debug\LibLog.dll
+D:\ProjectA\TestTools\bin\Debug\LibLog.pdb
+D:\ProjectA\TestTools\Common\Log\obj\Debug\LibLog.dll
+D:\ProjectA\TestTools\Common\Log\obj\Debug\LibLog.pdb

@@ -1,0 +1,12 @@
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\bin\Debug\ClientProtocolLib.dll
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\bin\Debug\ClientProtocolLib.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\bin\Debug\protobuf-net.dll
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\bin\Debug\protobuf-net.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\bin\Debug\protobuf-net.xml
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\ClientProtocolLib.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\ProtocolTestTool\bin\Debug\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\ProtocolTestTool\bin\Debug\Message.ClientProtocol.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.pdb
+D:\ProjectA\TestTools\bin\Debug\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\bin\Debug\Message.ClientProtocol.pdb

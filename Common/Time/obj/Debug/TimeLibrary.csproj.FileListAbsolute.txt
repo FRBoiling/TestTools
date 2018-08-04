@@ -1,0 +1,5 @@
+D:\NewProject\Trunk\TestTool\bin\Debug\TimeLibrary.dll
+D:\NewProject\Trunk\TestTool\bin\Debug\TimeLibrary.pdb
+D:\NewProject\Trunk\TestTool\TimeLibrary\obj\Debug\TimeLibrary.csprojResolveAssemblyReference.cache
+D:\NewProject\Trunk\TestTool\TimeLibrary\obj\Debug\TimeLibrary.dll
+D:\NewProject\Trunk\TestTool\TimeLibrary\obj\Debug\TimeLibrary.pdb

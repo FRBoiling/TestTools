@@ -1,0 +1,4 @@
+D:\NewProject\Trunk\TestTool\bin\Release\LogLibrary.dll
+D:\NewProject\Trunk\TestTool\bin\Release\LogLibrary.pdb
+D:\NewProject\Trunk\TestTool\LogLibrary\obj\Release\LogLibrary.dll
+D:\NewProject\Trunk\TestTool\LogLibrary\obj\Release\LogLibrary.pdb

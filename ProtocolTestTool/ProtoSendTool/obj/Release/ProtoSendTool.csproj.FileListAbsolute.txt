@@ -1,0 +1,12 @@
+D:\NewProject\Trunk\TestTool\bin\Release\ProtoSendTool.exe.config
+D:\NewProject\Trunk\TestTool\bin\Release\ProtoSendTool.exe
+D:\NewProject\Trunk\TestTool\bin\Release\ProtoSendTool.pdb
+D:\NewProject\Trunk\TestTool\ProtoSendTool\obj\Release\ProtoSendTool.csprojResolveAssemblyReference.cache
+D:\NewProject\Trunk\TestTool\ProtoSendTool\obj\Release\ProtoSendTool.MainForm.resources
+D:\NewProject\Trunk\TestTool\ProtoSendTool\obj\Release\ProtoSendTool.Properties.Resources.resources
+D:\NewProject\Trunk\TestTool\ProtoSendTool\obj\Release\ProtoSendTool.csproj.GenerateResource.Cache
+D:\NewProject\Trunk\TestTool\ProtoSendTool\obj\Release\ProtoSendTool.exe
+D:\NewProject\Trunk\TestTool\ProtoSendTool\obj\Release\ProtoSendTool.pdb
+D:\ProjectA\TestTools\ProtocolSendTool\bin\Release\ProtoSendTool.exe.config
+D:\ProjectA\TestTools\ProtocolSendTool\ProtoSendTool\obj\Release\ProtoSendTool.exe
+D:\ProjectA\TestTools\ProtocolSendTool\ProtoSendTool\obj\Release\ProtoSendTool.pdb

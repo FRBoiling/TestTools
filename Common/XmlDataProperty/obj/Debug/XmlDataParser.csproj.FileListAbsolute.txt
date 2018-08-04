@@ -1,0 +1,7 @@
+D:\ProjectA\TestTools\Common\bin\Debug\LibXmlDataProperty.dll
+D:\ProjectA\TestTools\Common\bin\Debug\LibXmlDataProperty.pdb
+D:\ProjectA\TestTools\Common\XmlDataProperty\obj\Debug\LibXmlDataProperty.dll
+D:\ProjectA\TestTools\Common\XmlDataProperty\obj\Debug\LibXmlDataProperty.pdb
+D:\ProjectA\TestTools\Common\XmlDataProperty\obj\Debug\XmlDataParser.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\bin\Debug\LibXmlDataProperty.dll
+D:\ProjectA\TestTools\bin\Debug\LibXmlDataProperty.pdb

@@ -1,0 +1,9 @@
+D:\ProjectA\TestTools\TestTools\bin\Debug\TestTools.exe.config
+D:\ProjectA\TestTools\TestTools\bin\Debug\TestTools.exe
+D:\ProjectA\TestTools\TestTools\bin\Debug\TestTools.pdb
+D:\ProjectA\TestTools\TestTools\obj\Debug\TestTools.csprojResolveAssemblyReference.cache
+D:\ProjectA\TestTools\TestTools\obj\Debug\TestTools.exe
+D:\ProjectA\TestTools\TestTools\obj\Debug\TestTools.pdb
+D:\ProjectA\bin\Debug\TestTools.exe.config
+D:\ProjectA\bin\Debug\TestTools.exe
+D:\ProjectA\bin\Debug\TestTools.pdb

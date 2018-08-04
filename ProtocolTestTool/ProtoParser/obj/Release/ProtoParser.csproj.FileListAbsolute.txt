@@ -1,0 +1,13 @@
+D:\NewProject\Trunk\TestTool\bin\Release\ProtoParser.exe.config
+D:\NewProject\Trunk\TestTool\bin\Release\ProtoParser.exe
+D:\NewProject\Trunk\TestTool\bin\Release\ProtoParser.pdb
+D:\NewProject\Trunk\TestTool\ProtoParser\obj\Release\ProtoParser.csprojResolveAssemblyReference.cache
+D:\NewProject\Trunk\TestTool\ProtoParser\obj\Release\ProtoParser.exe
+D:\NewProject\Trunk\TestTool\ProtoParser\obj\Release\ProtoParser.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\bin\Release\ProtoParser.exe.config
+D:\ProjectA\TestTools\ProtocolTestTool\ProtoParser\obj\Release\ProtoParser.exe
+D:\ProjectA\TestTools\ProtocolTestTool\ProtoParser\obj\Release\ProtoParser.pdb
+D:\ProjectA\TestTools\bin\Release\ProtoParser.exe.config
+D:\ProjectA\TestTools\bin\Release\ProtoParser.exe
+D:\ProjectA\TestTools\bin\Release\ProtoParser.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ProtoParser\obj\Release\ProtoParser.csprojResolveAssemblyReference.cache

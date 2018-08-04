@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{342BBF11-F46A-40FB-9EE5-4BF527C7D098}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProtoSendLib</RootNamespace>
+    <AssemblyName>ProtoSendLib</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="protobuf-net, Version=2.0.0.640, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProtocolBuilder\ProtocolBuffers\net_old\ProtoGen\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Client_Code.cs" />
+    <Compile Include="Client_Login_Requset.cs" />
+    <Compile Include="Client_Login_Response.cs" />
+    <Compile Include="HostInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Communication\Communication.csproj">
+      <Project>{974a81c1-ab2a-4aed-96c4-ff6559e68bb4}</Project>
+      <Name>Communication</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Log\Log.csproj">
+      <Project>{9d48ec3e-78ea-4b06-bce7-ec15e8cf835e}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Util\Util.csproj">
+      <Project>{43004eba-a955-4211-b1f7-5d519f1212c2}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GameInfo\PlayerInfoLib\PlayerInfoLib.csproj">
+      <Project>{3fc51684-16b5-4e31-9629-ac601135a930}</Project>
+      <Name>PlayerInfoLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientProtocolLib\ClientProtocolLib.csproj">
+      <Project>{aaf6fe41-e2ff-49be-9aac-61929c8c1dd9}</Project>
+      <Name>ClientProtocolLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProtocolCodec\ProtocolCodec.csproj">
+      <Project>{07949bfd-8020-4b8b-9b05-86b67cf9c832}</Project>
+      <Name>ProtocolCodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProtoParserLib\ProtoParserLib.csproj">
+      <Project>{f0467443-a85b-4d51-a75f-fd7819d28926}</Project>
+      <Name>ProtoParserLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
