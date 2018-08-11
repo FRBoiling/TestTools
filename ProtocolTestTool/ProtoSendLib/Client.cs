@@ -1,7 +1,6 @@
 ﻿using LibLog;
 using LibProtocolCodec;
-using protocol.client.c2g;
-using protocol.client.g2c;
+using protocol.client;
 using System.Net;
 
 namespace ProtoSendLib
@@ -22,13 +21,13 @@ namespace ProtoSendLib
 
         public Client()
         {
-           PLAYER.IsLogin = false;
+            PLAYER.IsLogin = false;
         }
 
         public void Init(string ip, int port)
         {
-            Log.WriteLine("init connect info ip {0} port {1}",ip,port);
-            _host = new HostInfo(ip,  port,  ip);
+            Log.WriteLine("init connect info ip {0} port {1}", ip, port);
+            _host = new HostInfo(ip, port, ip);
             _net = new ComnunicationClient();
             Net.Init();
             Connect2Gate();
@@ -42,7 +41,7 @@ namespace ProtoSendLib
             }
         }
 
-       
+
         public void Exit()
         {
             //ClearRequest();
@@ -105,8 +104,7 @@ namespace ProtoSendLib
 
         public void BindProtocol()
         {
-            C2GIdGenerater.GenerateId();
-            G2CIdGenerater.GenerateId();
+            ClientIdGenerater.GenerateId();
 
             BindResponse_Login();
 

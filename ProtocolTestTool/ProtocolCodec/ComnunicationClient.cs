@@ -87,9 +87,10 @@ namespace LibProtocolCodec
             //    return packetHandler.Package(msg, Tcp.Send);
             //}
             //else
-            {
-                return packetHandler.CryptoPackage(msg, Tcp.Send);
-            }
+            //{
+            //    return packetHandler.CryptoPackage(msg, Tcp.Send);
+            //}
+            return packetHandler.Package(msg, Tcp.Send);
         }
 
         public bool SendNomarl<T>(T msg) where T : global::ProtoBuf.IExtensible

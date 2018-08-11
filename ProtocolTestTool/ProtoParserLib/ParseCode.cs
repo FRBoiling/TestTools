@@ -99,9 +99,15 @@ namespace ProtoParserLib
             paras.GenerateInMemory = false;
             paras.GenerateExecutable = false;
             paras.OutputAssembly = newPath;
-
-            CompilerResults result = complier.CompileAssemblyFromFile(paras,filesNames);
-
+            CompilerResults result = null;
+            try
+            {
+                result = complier.CompileAssemblyFromFile(paras, filesNames);
+            }
+            catch (System.Exception e)
+            {
+                LibLog.Log.Error("{0}", e.Message.ToString());
+            }
          
             return result;
         }

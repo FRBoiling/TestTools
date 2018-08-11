@@ -94,5 +94,12 @@ namespace ProtoSendTool
         }
 
 
+        public void ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN()
+        {
+            MethodInfo meth = methods["ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN"];
+            //MethodInfo meth = client.GetType().GetMethod("ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN");
+            meth.Invoke(client, null);
+        }
+
     }
 }

@@ -13,9 +13,9 @@
     static public int CurrentCharacterId; // NOTE : 区内使用的实例id
     static public int CurrentPetId; // NOTE : 区内使用的实例id
     static public int InTriangleIndex = -1; // 当前人物在第几个方格中
-    public static int GameServerID = 101;
-    public static int ChatServerID = 101;
-    public static string AccountName = "";
+    public static int ServerGroupID = 1001;
+    public static int ChatServerID = 1001;
+    public static string username = "";
     public static string GameServerName = "";
     public static int PayServerID = 1;
     public static int EquipPetID;

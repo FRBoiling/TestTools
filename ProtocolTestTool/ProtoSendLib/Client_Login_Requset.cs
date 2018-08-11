@@ -1,5 +1,4 @@
-using protocol.client.c2g;
-using protocol.client.g2c;
+using protocol.client;
 
 namespace ProtoSendLib
 {
@@ -18,15 +17,30 @@ namespace ProtoSendLib
         }
         public void Login_Request_MSG_CG_USER_LOGIN()
         {
-            ////Protocol.m_isLinkOverTime = false;
-            //MSG_CG_USER_LOGIN MSG_CG_USER_LOGIN = new MSG_CG_USER_LOGIN();
-            //string registerId = "";
-            //MSG_CG_USER_LOGIN.deviceId = "19e22d35f4a60df695d1a4d847992a85da077f35";
-            //MSG_CG_USER_LOGIN.registerId = registerId;
-            //MSG_CG_USER_LOGIN.accountName = PLAYER.AccountName;
-            //MSG_CG_USER_LOGIN.mainId = PLAYER.GameServerID;
-            //MSG_CG_USER_LOGIN.version = CFG.Version;
-            //Net.Send(MSG_CG_USER_LOGIN);
+            MSG_CG_USER_LOGIN MSG_CG_USER_LOGIN = new MSG_CG_USER_LOGIN();
+            MSG_CG_USER_LOGIN.username = PLAYER.username;
+            MSG_CG_USER_LOGIN.token = "token";
+
+            string registerId = "";
+            MSG_CG_USER_LOGIN.version = CFG.Version;
+            MSG_CG_USER_LOGIN.deviceId = "19e22d35f4a60df695d1a4d847992a85da077f35";
+            MSG_CG_USER_LOGIN.registerId = registerId;
+            MSG_CG_USER_LOGIN.groupId = PLAYER.ServerGroupID;
+            MSG_CG_USER_LOGIN.channelName = "default_channel";
+            MSG_CG_USER_LOGIN.password = "";
+            Net.Send(MSG_CG_USER_LOGIN);
+        }
+
+        public void ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN()
+        {
+            MSG_CG_RECONNECT_LOGIN MSG_CG_RECONNECT_LOGIN = new MSG_CG_RECONNECT_LOGIN();
+            MSG_CG_RECONNECT_LOGIN.username = PLAYER.username;
+            MSG_CG_RECONNECT_LOGIN.token = "token";
+
+            //MSG_CG_RECONNECT_LOGIN.oldBlowFish = "token";
+            //MSG_CG_RECONNECT_LOGIN.uid = "token";
+
+            Net.Send(MSG_CG_RECONNECT_LOGIN);
         }
 
         public void Login_Request_MSG_CG_TO_ZONE(int character_uid)

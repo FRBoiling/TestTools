@@ -168,9 +168,7 @@ namespace ProtoParserLib
             StringBuilder sb = new StringBuilder();
             sb.Append("using System.IO;");
             sb.Append(Environment.NewLine);
-            sb.Append("using protocol.client.c2g;");
-            sb.Append(Environment.NewLine);
-            sb.Append("using protocol.client.g2c;");
+            sb.Append("using protocol.client;");
             sb.Append(Environment.NewLine);
             sb.Append("using Protocol.MsgId;");
             sb.Append(Environment.NewLine);

@@ -35,20 +35,21 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.ProtocolSelect = new System.Windows.Forms.ComboBox();
             this.LoginBtn = new System.Windows.Forms.Button();
-            this.AccountNameInput = new System.Windows.Forms.TextBox();
+            this.UsernameInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.ConnectBtn = new System.Windows.Forms.Button();
             this.DisConnectBtn = new System.Windows.Forms.Button();
+            this.ReconnectLoginBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // GetProto
             // 
-            this.GetProto.Location = new System.Drawing.Point(392, 50);
+            this.GetProto.Location = new System.Drawing.Point(392, 65);
             this.GetProto.Name = "GetProto";
             this.GetProto.Size = new System.Drawing.Size(107, 28);
             this.GetProto.TabIndex = 0;
@@ -74,7 +75,7 @@
             this.MainTextBox.Multiline = true;
             this.MainTextBox.Name = "MainTextBox";
             this.MainTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.MainTextBox.Size = new System.Drawing.Size(785, 560);
+            this.MainTextBox.Size = new System.Drawing.Size(694, 423);
             this.MainTextBox.TabIndex = 2;
             this.MainTextBox.WordWrap = false;
             // 
@@ -85,10 +86,10 @@
             this.Column1,
             this.Column2,
             this.Column3});
-            this.dataGridView1.Location = new System.Drawing.Point(19, 96);
+            this.dataGridView1.Location = new System.Drawing.Point(19, 65);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
-            this.dataGridView1.Size = new System.Drawing.Size(356, 475);
+            this.dataGridView1.Size = new System.Drawing.Size(356, 369);
             this.dataGridView1.TabIndex = 3;
             // 
             // Column1
@@ -108,15 +109,15 @@
             this.Column3.HeaderText = "值";
             this.Column3.Name = "Column3";
             // 
-            // comboBox2
+            // ProtocolSelect
             // 
-            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(72, 54);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(299, 20);
-            this.comboBox2.TabIndex = 5;
+            this.ProtocolSelect.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.ProtocolSelect.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.ProtocolSelect.FormattingEnabled = true;
+            this.ProtocolSelect.Location = new System.Drawing.Point(76, 39);
+            this.ProtocolSelect.Name = "ProtocolSelect";
+            this.ProtocolSelect.Size = new System.Drawing.Size(299, 20);
+            this.ProtocolSelect.TabIndex = 5;
             // 
             // LoginBtn
             // 
@@ -128,12 +129,12 @@
             this.LoginBtn.UseVisualStyleBackColor = true;
             this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
             // 
-            // AccountNameInput
+            // UsernameInput
             // 
-            this.AccountNameInput.Location = new System.Drawing.Point(76, 12);
-            this.AccountNameInput.Name = "AccountNameInput";
-            this.AccountNameInput.Size = new System.Drawing.Size(193, 21);
-            this.AccountNameInput.TabIndex = 7;
+            this.UsernameInput.Location = new System.Drawing.Point(76, 12);
+            this.UsernameInput.Name = "UsernameInput";
+            this.UsernameInput.Size = new System.Drawing.Size(193, 21);
+            this.UsernameInput.TabIndex = 7;
             // 
             // label1
             // 
@@ -146,7 +147,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(392, 535);
+            this.button1.Location = new System.Drawing.Point(396, 398);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 36);
             this.button1.TabIndex = 9;
@@ -157,7 +158,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(17, 58);
+            this.label2.Location = new System.Drawing.Point(17, 42);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 10;
@@ -165,7 +166,7 @@
             // 
             // ConnectBtn
             // 
-            this.ConnectBtn.Location = new System.Drawing.Point(392, 238);
+            this.ConnectBtn.Location = new System.Drawing.Point(396, 241);
             this.ConnectBtn.Name = "ConnectBtn";
             this.ConnectBtn.Size = new System.Drawing.Size(103, 33);
             this.ConnectBtn.TabIndex = 12;
@@ -175,7 +176,7 @@
             // 
             // DisConnectBtn
             // 
-            this.DisConnectBtn.Location = new System.Drawing.Point(392, 287);
+            this.DisConnectBtn.Location = new System.Drawing.Point(396, 280);
             this.DisConnectBtn.Name = "DisConnectBtn";
             this.DisConnectBtn.Size = new System.Drawing.Size(103, 32);
             this.DisConnectBtn.TabIndex = 13;
@@ -183,19 +184,29 @@
             this.DisConnectBtn.UseVisualStyleBackColor = true;
             this.DisConnectBtn.Click += new System.EventHandler(this.DisConnectBtn_Click);
             // 
+            // ReconnectLoginBtn
+            // 
+            this.ReconnectLoginBtn.Location = new System.Drawing.Point(392, 9);
+            this.ReconnectLoginBtn.Name = "ReconnectLoginBtn";
+            this.ReconnectLoginBtn.Size = new System.Drawing.Size(75, 23);
+            this.ReconnectLoginBtn.TabIndex = 0;
+            this.ReconnectLoginBtn.Text = "断线重连";
+            this.ReconnectLoginBtn.Click += new System.EventHandler(this.ReconnectLoginBtn_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1317, 585);
+            this.ClientSize = new System.Drawing.Size(1226, 448);
+            this.Controls.Add(this.ReconnectLoginBtn);
             this.Controls.Add(this.DisConnectBtn);
             this.Controls.Add(this.ConnectBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.AccountNameInput);
+            this.Controls.Add(this.UsernameInput);
             this.Controls.Add(this.LoginBtn);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.ProtocolSelect);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.MainTextBox);
             this.Controls.Add(this.SendBtn);
@@ -219,14 +230,15 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox ProtocolSelect;
         private System.Windows.Forms.Button LoginBtn;
-        private System.Windows.Forms.TextBox AccountNameInput;
+        private System.Windows.Forms.TextBox UsernameInput;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button ConnectBtn;
         private System.Windows.Forms.Button DisConnectBtn;
+        private System.Windows.Forms.Button ReconnectLoginBtn;
     }
 }
 

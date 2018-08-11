@@ -31,11 +31,11 @@ namespace ProtoSendTool
         Thread netThread;
         static string GateIp = "127.0.0.1";
         static int GatePort = 8403;
-        private bool bIsAssembly = true;
+        private bool bIsAssembly = false;
 
         private void Method()
         {
-            if (client ==null)
+            if (client == null)
             {
                 if (bIsAssembly)
                 {
@@ -96,7 +96,7 @@ namespace ProtoSendTool
                 Connect();
             }
 
-            clientMsgDll =  @"Message.ClientProtocol.dll";
+            clientMsgDll = @"Message.ClientProtocol.dll";
 
             AssemblyHandler handler = new AssemblyHandler();
             AssemblyResult result = handler.GetClassName(clientMsgDll);
@@ -105,11 +105,11 @@ namespace ProtoSendTool
 
             foreach (var item in result.ClassList)
             {
-                if (item.Value.Contains("Message") && item.Key.Contains("MSG_CG"))
+                if (item.Value.Contains("protocol.client") && item.Key.Contains("MSG_CG"))
                 {
                     AssemblyClassInfo classInfo = handler.GetClassInfo(clientMsgDll, item.Value);
                     list.Add(classInfo.ClassName, classInfo);
-                    comboBox2.Items.Add(classInfo.ClassName);
+                    ProtocolSelect.Items.Add(classInfo.ClassName);
                 }
             }
         }
@@ -130,9 +130,9 @@ namespace ProtoSendTool
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            if (comboBox2.SelectedItem != null)
+            if (ProtocolSelect.SelectedItem != null)
             {
-                key = comboBox2.SelectedItem.ToString();
+                key = ProtocolSelect.SelectedItem.ToString();
                 if (client == null)
                 {
                     Log.WriteLine("please check tcp connect!");
@@ -312,7 +312,7 @@ namespace ProtoSendTool
             this.dataGridView1.Columns[1].ReadOnly = true;
         }
 
-        public void SetDateValue(object msg,string dataName, object value)
+        public void SetDateValue(object msg, string dataName, object value)
         {
             if (msg == null)
             {
@@ -367,7 +367,7 @@ namespace ProtoSendTool
                         case PropertyType.UInt64:
                             foreach (string item in sp)
                             {
-                                addMethod.Invoke(lst, new object[] {  Convert.ToUInt64(item) });
+                                addMethod.Invoke(lst, new object[] { Convert.ToUInt64(item) });
                             }
                             break;
                         case PropertyType.Float:
@@ -395,7 +395,7 @@ namespace ProtoSendTool
                     //        Log.ErrorLine("{0}\n",item);
                     //    } 
                     //}
-                    
+
                     break;
                 default:
                     break;
@@ -405,9 +405,9 @@ namespace ProtoSendTool
 
         private void LoginBtn_Click(object sender, EventArgs e)
         {
-            if (AccountNameInput.Text != null)
+            if (UsernameInput.Text != null)
             {
-                PLAYER.AccountName = AccountNameInput.Text.ToString();
+                PLAYER.username = UsernameInput.Text.ToString();
                 if (client == null)
                 {
                     Log.WriteLine("please check tcp connect!");
@@ -424,6 +424,19 @@ namespace ProtoSendTool
 
         }
 
+        private void ReconnectLoginBtn_Click(object sender, EventArgs e)
+        {
+            if (client == null)
+            {
+                Log.WriteLine("please check tcp connect!");
+            }
+            else
+            {
+                client.ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN();
+            }
+        }
+
+
         private void button1_Click_1(object sender, EventArgs e)
         {
             MainTextBox.Clear();
@@ -439,7 +452,7 @@ namespace ProtoSendTool
         {
             if (client == null)
             {
-                Log.WriteLine("tcp already disconnected!now to compile the protoBuff");
+                Log.WriteLine("tcp already disconnected! ");
             }
             else
             {
@@ -450,9 +463,11 @@ namespace ProtoSendTool
                 return true;
             }
 
+            Log.WriteLine("compile the proto buff");
+           
             string code = ParseCode.AssemblyParseDll(clientMsgDll);
 
-            string soure = PathExt.workPath + @"\ProtoSendLib\";
+            string soure = PathExt.workPath + @"\ProtocolTestTool\ProtoSendLib\";
             string str1 = soure + @"Client.cs";
             string str2 = soure + @"Client_Code.cs";
             string str3 = soure + @"Client_Login_Requset.cs";
@@ -551,5 +566,6 @@ namespace ProtoSendTool
             }
             client.Exit();
         }
+
     }
 }

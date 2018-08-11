@@ -1,6 +1,8 @@
-using System.IO;
-using System.Collections.Generic;
+using protocol.client;
 using Protocol.MsgId;
+using ProtoParserLib;
+using System.Collections.Generic;
+using System.IO;
 
 namespace ProtoSendLib
 {
@@ -8,9 +10,9 @@ namespace ProtoSendLib
     {
         public void BindResponse_Login()
         {
-            //Net.AddResponser(Id<MSG_GC_TIME_SYNC>.Value, OnResponse_MSG_GC_TIME_SYNC);
+            Net.AddResponser(Id<MSG_GC_USER_LOGIN>.Value, OnResponse_MSG_GC_USER_LOGIN); //Net.AddResponser(Id<MSG_GC_TIME_SYNC>.Value, OnResponse_MSG_GC_TIME_SYNC);
             //Net.AddResponser(Id<MSG_GC_BLOWFISHKEY>.Value, OnResponse_MSG_GC_BLOWFISHKEY);
-            //Net.AddResponser(Id<MSG_GC_USER_LOGIN>.Value, OnResponse_MSG_GC_USER_LOGIN);
+
             //Net.AddResponser(Id<MSG_GC_ENTER_WORLD>.Value, OnResponse_MSG_GC_ENTER_WORLD);
             //Net.AddResponser(Id<MSG_GC_ENTER_ZONE>.Value, OnResponse_MSG_GC_ENTER_ZONE);
             //Net.AddResponser(Id<MSG_GC_HEARTBEAT>.Value, OnResponse_MSG_GC_HEARTBEAT);
@@ -57,43 +59,45 @@ namespace ProtoSendLib
         //        //}
         //    }
 
-        //    List<MSG_GC_CHARACTER_INFO> mCharacterList = new List<MSG_GC_CHARACTER_INFO>();
-        //    public void OnResponse_MSG_GC_USER_LOGIN(MemoryStream stream)
-        //    {
-        //        MSG_GC_USER_LOGIN MSG_GC_USER_LOGIN = ProtoBuf.Serializer.Deserialize<MSG_GC_USER_LOGIN>(stream);
-        //        Parser.Parse(MSG_GC_USER_LOGIN);
+        List<ROLE_INFO> mCharacterList = new List<ROLE_INFO>();
+        public void OnResponse_MSG_GC_USER_LOGIN(MemoryStream stream)
+        {
+            MSG_GC_USER_LOGIN MSG_GC_USER_LOGIN = ProtoBuf.Serializer.Deserialize<MSG_GC_USER_LOGIN>(stream);
+            Parser.Parse(MSG_GC_USER_LOGIN);
 
-        //        if (MSG_GC_USER_LOGIN.result == 1)
-        //        {
-        //            mCharacterList.Clear();
-        //            for (int i = 0; i < MSG_GC_USER_LOGIN.character_list.Count; ++i)
-        //            {
-        //                MSG_GC_CHARACTER_INFO characterInfo = MSG_GC_USER_LOGIN.character_list[i];
-        //                mCharacterList.Add(characterInfo);
-        //            }
-        //            if (mCharacterList.Count > 0)
-        //            {
-        //                //跳过选角 TODO
-        //                Login_Request_MSG_CG_TO_ZONE(mCharacterList[0].Uid);
-        //            }
-        //            else
-        //            {
-        //                //UnityEngine.Debug.Log("Create new player");
-        //                //GameManager.inst.ChangeScene(DEF.SCENE_CREATECHARACTER);
-        //            }
-        //            //CFG_SAVE.SaveConfig();
+            if (MSG_GC_USER_LOGIN.result == 1)
+            {
+                PLAYER.IsLogin = true;
+                mCharacterList.Clear();
+                for (int i = 0; i < MSG_GC_USER_LOGIN.roleList.Count; ++i)
+                {
+                    ROLE_INFO characterInfo = MSG_GC_USER_LOGIN.roleList[i];
+                    mCharacterList.Add(characterInfo);
+                }
+                if (mCharacterList.Count > 0)
+                {
+                    //跳过选角 TODO
+                    Login_Request_MSG_CG_TO_ZONE(mCharacterList[0].uid);
+                }
+                else
+                {
+                    //UnityEngine.Debug.Log("Create new player");
+                    //GameManager.inst.ChangeScene(DEF.SCENE_CREATECHARACTER);
+                }
+                //CFG_SAVE.SaveConfig();
 
-        //        }
-        //        else if (MSG_GC_USER_LOGIN.result == 144)
-        //        {
-        //            //EventManager.Dispatch(EventConst.BadVersion);
-        //        }
-        //        else
-        //        {
-        //            //UnityEngine.Debug.Log("Login failed: {0}" + MSG_GC_USER_LOGIN.result.ToString());
-        //        }
-        //        //UI.CloseWait();
-        //    }
+            }
+            else if (MSG_GC_USER_LOGIN.result == 144)
+            {
+                //EventManager.Dispatch(EventConst.BadVersion);
+            }
+            else
+            {
+                //UnityEngine.Debug.Log("Login failed: {0}" + MSG_GC_USER_LOGIN.result.ToString());
+            }
+            //UI.CloseWait();
+        }
+
         //    public void OnResponse_MSG_GC_ENTER_WORLD(MemoryStream stream)
         //    {
         //        MSG_GC_ENTER_WORLD MSG_GC_ENTER_WORLD = ProtoBuf.Serializer.Deserialize<MSG_GC_ENTER_WORLD>(stream);

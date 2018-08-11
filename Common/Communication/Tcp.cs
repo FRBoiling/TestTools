@@ -173,7 +173,7 @@ namespace TcpLib
                     Disconnect();
                     return;
                 }
-                //Log.WriteLine("Recv {0} bytes", len);
+                Log.WriteLine("Recv {0} bytes", len);
                 len = state.offset + len;
                 MemoryStream transferred = new MemoryStream(state.buffer, 0, len, true, true);
 

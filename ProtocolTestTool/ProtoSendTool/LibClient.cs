@@ -50,5 +50,10 @@ namespace ProtoSendTool
             client.Login_Request_MSG_CG_USER_LOGIN();
         }
 
+        public void ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN()
+        {
+            client.ReconnectLogin_Request_MSG_CG_RECONNECT_LOGIN();
+        }
+
     }
 }

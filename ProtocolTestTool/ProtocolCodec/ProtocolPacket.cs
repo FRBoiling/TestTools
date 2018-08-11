@@ -74,7 +74,7 @@ namespace LibProtocolCodec
             MemoryStream packet = new MemoryStream(PacketHeader.Size);
 
             packet.Write(BitConverter.GetBytes(len), 0, 2);
-            packet.Write(BitConverter.GetBytes(protobufLen), 0, 2);
+            //packet.Write(BitConverter.GetBytes(protobufLen), 0, 2);
             packet.Write(BitConverter.GetBytes(Protocol.MsgId.Id<T>.Value), 0, 4);
             packet.Write(body.GetBuffer(), 0, len);
 
