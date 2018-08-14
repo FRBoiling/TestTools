@@ -176,8 +176,10 @@ namespace protocol.client
   {
     public ROLE_INFO() {}
     
-    private int _uid;
-    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"uid", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+
+    private int _uid = default(int);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"uid", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
     public int uid
     {
       get { return _uid; }
@@ -190,19 +192,23 @@ namespace protocol.client
       get { return _name; }
       set { _name = value; }
     }
-    private int _sex;
-    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"sex", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+
+    private int _sex = default(int);
+    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"sex", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
     public int sex
     {
       get { return _sex; }
       set { _sex = value; }
     }
-    private int _modelId;
-    [global::ProtoBuf.ProtoMember(4, IsRequired = true, Name=@"modelId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    public int modelId
+
+    private int _faceIconId = default(int);
+    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"faceIconId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
+    public int faceIconId
     {
-      get { return _modelId; }
-      set { _modelId = value; }
+      get { return _faceIconId; }
+      set { _faceIconId = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
@@ -214,26 +220,12 @@ namespace protocol.client
   {
     public MSG_CG_CREATE_ROLE() {}
     
-    private string _name;
-    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"name", DataFormat = global::ProtoBuf.DataFormat.Default)]
-    public string name
+    private protocol.client.ROLE_INFO _roleInfo;
+    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"roleInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public protocol.client.ROLE_INFO roleInfo
     {
-      get { return _name; }
-      set { _name = value; }
-    }
-    private int _sex;
-    [global::ProtoBuf.ProtoMember(2, IsRequired = true, Name=@"sex", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    public int sex
-    {
-      get { return _sex; }
-      set { _sex = value; }
-    }
-    private int _modelId;
-    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"modelId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    public int modelId
-    {
-      get { return _modelId; }
-      set { _modelId = value; }
+      get { return _roleInfo; }
+      set { _roleInfo = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)

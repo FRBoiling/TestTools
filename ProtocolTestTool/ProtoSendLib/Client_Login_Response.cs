@@ -81,6 +81,7 @@ namespace ProtoSendLib
                 }
                 else
                 {
+                    Login_Request_MSG_CG_CREATE_ROLE();
                     //UnityEngine.Debug.Log("Create new player");
                     //GameManager.inst.ChangeScene(DEF.SCENE_CREATECHARACTER);
                 }

@@ -50,6 +50,15 @@ namespace ProtoSendLib
             //Net.Send(MSG_CG_TO_ZONE);
         }
 
+        public void Login_Request_MSG_CG_CREATE_ROLE()
+        {
+            MSG_CG_CREATE_ROLE MSG_CG_CREATE_ROLE = new MSG_CG_CREATE_ROLE();
+            MSG_CG_CREATE_ROLE.roleInfo = new ROLE_INFO();
+            MSG_CG_CREATE_ROLE.roleInfo.name ="robot_" +PLAYER.username;
+            MSG_CG_CREATE_ROLE.roleInfo.sex = 1;
+            Net.Send(MSG_CG_CREATE_ROLE);
+        }
+
         public void Login_Request_MSG_CG_MAP_LOADING_DONE(int mapId, int channel)
         {
             //MSG_CG_MAP_LOADING_DONE MSG_CG_MAP_LOADING_DONE = new MSG_CG_MAP_LOADING_DONE();
