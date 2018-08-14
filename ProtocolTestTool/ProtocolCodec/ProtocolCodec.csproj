@@ -50,10 +50,6 @@
     <Compile Include="ProtocolPacket.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProtocolTestTool\ClientProtocolLib\ClientProtocolLib.csproj">
-      <Project>{aaf6fe41-e2ff-49be-9aac-61929c8c1dd9}</Project>
-      <Name>ClientProtocolLib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Common\Communication\Communication.csproj">
       <Project>{974a81c1-ab2a-4aed-96c4-ff6559e68bb4}</Project>
       <Name>Communication</Name>
@@ -61,6 +57,10 @@
     <ProjectReference Include="..\..\Common\Util\Util.csproj">
       <Project>{43004eba-a955-4211-b1f7-5d519f1212c2}</Project>
       <Name>Util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientProtocolLib\ClientProtocolLib.csproj">
+      <Project>{aaf6fe41-e2ff-49be-9aac-61929c8c1dd9}</Project>
+      <Name>ClientProtocolLib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

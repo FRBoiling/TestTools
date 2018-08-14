@@ -11,3 +11,10 @@ D:\ProjectA\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.dll
 D:\ProjectA\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.pdb
 D:\ProjectA\TestTools\bin\Debug\ProtoSendLib.dll
 D:\ProjectA\TestTools\bin\Debug\ProtoSendLib.pdb
+D:\GitHub\TestTools\bin\Debug\ProtoSendLib.dll
+D:\GitHub\TestTools\bin\Debug\ProtoSendLib.pdb
+D:\GitHub\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.csprojAssemblyReference.cache
+D:\GitHub\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.csproj.CopyComplete
+D:\GitHub\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.dll
+D:\GitHub\TestTools\ProtocolTestTool\ProtoSendLib\obj\Debug\ProtoSendLib.pdb
