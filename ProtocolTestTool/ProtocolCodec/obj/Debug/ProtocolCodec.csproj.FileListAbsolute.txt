@@ -9,10 +9,3 @@ D:\ProjectA\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.dll
 D:\ProjectA\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.pdb
 D:\ProjectA\TestTools\bin\Debug\ProtocolCodec.dll
 D:\ProjectA\TestTools\bin\Debug\ProtocolCodec.pdb
-D:\GitHub\TestTools\bin\Debug\ProtocolCodec.dll
-D:\GitHub\TestTools\bin\Debug\ProtocolCodec.pdb
-D:\GitHub\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.csprojAssemblyReference.cache
-D:\GitHub\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.csproj.CoreCompileInputs.cache
-D:\GitHub\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.csproj.CopyComplete
-D:\GitHub\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.dll
-D:\GitHub\TestTools\ProtocolTestTool\ProtocolCodec\obj\Debug\ProtocolCodec.pdb

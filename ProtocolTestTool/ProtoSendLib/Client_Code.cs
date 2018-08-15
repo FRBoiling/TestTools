@@ -23,6 +23,12 @@ public object New_MSG_CG_USER_LOGIN()
 return msg_MSG_CG_USER_LOGIN;
 }
 
+public void OnResponse_ROLE_LOGIN_INFO(MemoryStream stream)
+{
+ROLE_LOGIN_INFO ROLE_LOGIN_INFO = ProtoBuf.Serializer.Deserialize<ROLE_LOGIN_INFO>(stream);
+Parser.Parse(ROLE_LOGIN_INFO);
+}
+
 MSG_CG_RECONNECT_LOGIN msg_MSG_CG_RECONNECT_LOGIN;
 
 public object Init_MSG_CG_RECONNECT_LOGIN()
@@ -153,6 +159,8 @@ return null;
 }
 public void BindResponse()
 {
+Net.AddResponser(Id<ROLE_LOGIN_INFO>.Value, OnResponse_ROLE_LOGIN_INFO);
+
 Net.AddResponser(Id<MSG_GC_RECONNECT_LOGIN>.Value, OnResponse_MSG_GC_RECONNECT_LOGIN);
 
 Net.AddResponser(Id<ROLE_INFO>.Value, OnResponse_ROLE_INFO);

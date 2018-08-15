@@ -1,7 +1,5 @@
-D:\GitHub\TestTools\bin\Debug\Message.ClientProtocol.dll
-D:\GitHub\TestTools\bin\Debug\Message.ClientProtocol.pdb
-D:\GitHub\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\ClientProtocolLib.csprojAssemblyReference.cache
-D:\GitHub\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\ClientProtocolLib.csproj.CoreCompileInputs.cache
-D:\GitHub\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\ClientProtocolLib.csproj.CopyComplete
-D:\GitHub\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.dll
-D:\GitHub\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.pdb
+D:\ProjectA\TestTools\bin\Debug\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\bin\Debug\Message.ClientProtocol.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.dll
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.pdb
+D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\ClientProtocolLib.csprojResolveAssemblyReference.cache

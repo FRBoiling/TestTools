@@ -11,12 +11,13 @@ namespace protocol.client
           public static void GenerateId()
           {
                Protocol.MsgId.Id<MSG_CG_USER_LOGIN>.Value= 0x100001;
-               Protocol.MsgId.Id<MSG_GC_USER_LOGIN>.Value= 0x100002;
-               Protocol.MsgId.Id<MSG_CG_RECONNECT_LOGIN>.Value= 0x100003;
-               Protocol.MsgId.Id<MSG_GC_RECONNECT_LOGIN>.Value= 0x100004;
-               Protocol.MsgId.Id<ROLE_INFO>.Value= 0x100005;
+               Protocol.MsgId.Id<ROLE_LOGIN_INFO>.Value= 0x100002;
+               Protocol.MsgId.Id<MSG_GC_USER_LOGIN>.Value= 0x100003;
+               Protocol.MsgId.Id<MSG_CG_RECONNECT_LOGIN>.Value= 0x100004;
+               Protocol.MsgId.Id<MSG_GC_RECONNECT_LOGIN>.Value= 0x100005;
                Protocol.MsgId.Id<MSG_CG_CREATE_ROLE>.Value= 0x100006;
-               Protocol.MsgId.Id<MSG_GC_CREATE_ROLE>.Value= 0x100007;
+               Protocol.MsgId.Id<ROLE_INFO>.Value= 0x100007;
+               Protocol.MsgId.Id<MSG_GC_CREATE_ROLE>.Value= 0x100008;
           }
      }
 }

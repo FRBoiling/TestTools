@@ -29,14 +29,3 @@ D:\ProjectA\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.Pro
 D:\ProjectA\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.csproj.GenerateResource.Cache
 D:\ProjectA\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.exe
 D:\ProjectA\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.pdb
-D:\GitHub\TestTools\bin\Debug\ProtoSendTool.exe.config
-D:\GitHub\TestTools\bin\Debug\ProtoSendTool.exe
-D:\GitHub\TestTools\bin\Debug\ProtoSendTool.pdb
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.csprojAssemblyReference.cache
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.MainForm.resources
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.Properties.Resources.resources
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.csproj.GenerateResource.cache
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.csproj.CoreCompileInputs.cache
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.csproj.CopyComplete
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.exe
-D:\GitHub\TestTools\ProtocolTestTool\ProtoSendTool\obj\Debug\ProtoSendTool.pdb

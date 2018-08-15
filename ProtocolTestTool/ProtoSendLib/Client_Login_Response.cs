@@ -59,7 +59,7 @@ namespace ProtoSendLib
         //        //}
         //    }
 
-        List<ROLE_INFO> mCharacterList = new List<ROLE_INFO>();
+        List<ROLE_LOGIN_INFO> mCharacterList = new List<ROLE_LOGIN_INFO>();
         public void OnResponse_MSG_GC_USER_LOGIN(MemoryStream stream)
         {
             MSG_GC_USER_LOGIN MSG_GC_USER_LOGIN = ProtoBuf.Serializer.Deserialize<MSG_GC_USER_LOGIN>(stream);
@@ -71,7 +71,7 @@ namespace ProtoSendLib
                 mCharacterList.Clear();
                 for (int i = 0; i < MSG_GC_USER_LOGIN.roleList.Count; ++i)
                 {
-                    ROLE_INFO characterInfo = MSG_GC_USER_LOGIN.roleList[i];
+                    ROLE_LOGIN_INFO characterInfo = MSG_GC_USER_LOGIN.roleList[i];
                     mCharacterList.Add(characterInfo);
                 }
                 if (mCharacterList.Count > 0)
@@ -81,7 +81,7 @@ namespace ProtoSendLib
                 }
                 else
                 {
-                    Login_Request_MSG_CG_CREATE_ROLE();
+                    Login_Request_MSG_CG_CREATE_ROLE(MSG_GC_USER_LOGIN.areaId);
                     //UnityEngine.Debug.Log("Create new player");
                     //GameManager.inst.ChangeScene(DEF.SCENE_CREATECHARACTER);
                 }

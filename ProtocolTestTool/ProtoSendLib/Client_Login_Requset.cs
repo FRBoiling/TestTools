@@ -25,7 +25,7 @@ namespace ProtoSendLib
             MSG_CG_USER_LOGIN.version = CFG.Version;
             MSG_CG_USER_LOGIN.deviceId = "19e22d35f4a60df695d1a4d847992a85da077f35";
             MSG_CG_USER_LOGIN.registerId = registerId;
-            MSG_CG_USER_LOGIN.groupId = PLAYER.ServerGroupID;
+            MSG_CG_USER_LOGIN.areaId = PLAYER.ServerGroupID;
             MSG_CG_USER_LOGIN.channelName = "default_channel";
             MSG_CG_USER_LOGIN.password = "";
             Net.Send(MSG_CG_USER_LOGIN);
@@ -50,12 +50,11 @@ namespace ProtoSendLib
             //Net.Send(MSG_CG_TO_ZONE);
         }
 
-        public void Login_Request_MSG_CG_CREATE_ROLE()
+        public void Login_Request_MSG_CG_CREATE_ROLE(int areaId)
         {
             MSG_CG_CREATE_ROLE MSG_CG_CREATE_ROLE = new MSG_CG_CREATE_ROLE();
-            MSG_CG_CREATE_ROLE.roleInfo = new ROLE_INFO();
-            MSG_CG_CREATE_ROLE.roleInfo.name ="robot_" +PLAYER.username;
-            MSG_CG_CREATE_ROLE.roleInfo.sex = 1;
+            MSG_CG_CREATE_ROLE.name ="robot_" +PLAYER.username;
+            MSG_CG_CREATE_ROLE.areaId = areaId;
             Net.Send(MSG_CG_CREATE_ROLE);
         }
 

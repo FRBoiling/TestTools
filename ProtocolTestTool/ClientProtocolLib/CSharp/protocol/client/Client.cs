@@ -29,47 +29,87 @@ namespace protocol.client
       get { return _password; }
       set { _password = value; }
     }
+    private int _areaId;
+    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"areaId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int areaId
+    {
+      get { return _areaId; }
+      set { _areaId = value; }
+    }
     private string _version;
-    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"version", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(5, IsRequired = true, Name=@"version", DataFormat = global::ProtoBuf.DataFormat.Default)]
     public string version
     {
       get { return _version; }
       set { _version = value; }
     }
     private string _deviceId;
-    [global::ProtoBuf.ProtoMember(4, IsRequired = true, Name=@"deviceId", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(6, IsRequired = true, Name=@"deviceId", DataFormat = global::ProtoBuf.DataFormat.Default)]
     public string deviceId
     {
       get { return _deviceId; }
       set { _deviceId = value; }
     }
     private string _registerId;
-    [global::ProtoBuf.ProtoMember(5, IsRequired = true, Name=@"registerId", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(7, IsRequired = true, Name=@"registerId", DataFormat = global::ProtoBuf.DataFormat.Default)]
     public string registerId
     {
       get { return _registerId; }
       set { _registerId = value; }
     }
     private string _channelName;
-    [global::ProtoBuf.ProtoMember(6, IsRequired = true, Name=@"channelName", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(8, IsRequired = true, Name=@"channelName", DataFormat = global::ProtoBuf.DataFormat.Default)]
     public string channelName
     {
       get { return _channelName; }
       set { _channelName = value; }
     }
-    private int _groupId;
-    [global::ProtoBuf.ProtoMember(7, IsRequired = true, Name=@"groupId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    public int groupId
-    {
-      get { return _groupId; }
-      set { _groupId = value; }
-    }
     private string _token;
-    [global::ProtoBuf.ProtoMember(8, IsRequired = true, Name=@"token", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(9, IsRequired = true, Name=@"token", DataFormat = global::ProtoBuf.DataFormat.Default)]
     public string token
     {
       get { return _token; }
       set { _token = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"ROLE_LOGIN_INFO")]
+  public partial class ROLE_LOGIN_INFO : global::ProtoBuf.IExtensible
+  {
+    public ROLE_LOGIN_INFO() {}
+    
+
+    private int _uid = default(int);
+    [global::ProtoBuf.ProtoMember(1, IsRequired = false, Name=@"uid", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
+    public int uid
+    {
+      get { return _uid; }
+      set { _uid = value; }
+    }
+    private string _name;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = true, Name=@"name", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public string name
+    {
+      get { return _name; }
+      set { _name = value; }
+    }
+    private int _areaId;
+    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"areaId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int areaId
+    {
+      get { return _areaId; }
+      set { _areaId = value; }
+    }
+    private int _originalAreaId;
+    [global::ProtoBuf.ProtoMember(4, IsRequired = true, Name=@"originalAreaId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int originalAreaId
+    {
+      get { return _originalAreaId; }
+      set { _originalAreaId = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
@@ -95,18 +135,25 @@ namespace protocol.client
       get { return _username; }
       set { _username = value; }
     }
+    private int _areaId;
+    [global::ProtoBuf.ProtoMember(3, IsRequired = true, Name=@"areaId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    public int areaId
+    {
+      get { return _areaId; }
+      set { _areaId = value; }
+    }
 
     private string _token = "";
-    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"token", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"token", DataFormat = global::ProtoBuf.DataFormat.Default)]
     [global::System.ComponentModel.DefaultValue("")]
     public string token
     {
       get { return _token; }
       set { _token = value; }
     }
-    private readonly global::System.Collections.Generic.List<protocol.client.ROLE_INFO> _roleList = new global::System.Collections.Generic.List<protocol.client.ROLE_INFO>();
-    [global::ProtoBuf.ProtoMember(4, Name=@"roleList", DataFormat = global::ProtoBuf.DataFormat.Default)]
-    public global::System.Collections.Generic.List<protocol.client.ROLE_INFO> roleList
+    private readonly global::System.Collections.Generic.List<protocol.client.ROLE_LOGIN_INFO> _roleList = new global::System.Collections.Generic.List<protocol.client.ROLE_LOGIN_INFO>();
+    [global::ProtoBuf.ProtoMember(5, Name=@"roleList", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public global::System.Collections.Generic.List<protocol.client.ROLE_LOGIN_INFO> roleList
     {
       get { return _roleList; }
     }
@@ -171,6 +218,32 @@ namespace protocol.client
       { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
   }
   
+  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"MSG_CG_CREATE_ROLE")]
+  public partial class MSG_CG_CREATE_ROLE : global::ProtoBuf.IExtensible
+  {
+    public MSG_CG_CREATE_ROLE() {}
+    
+    private string _name;
+    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"name", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    public string name
+    {
+      get { return _name; }
+      set { _name = value; }
+    }
+
+    private int _areaId = default(int);
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"areaId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    [global::System.ComponentModel.DefaultValue(default(int))]
+    public int areaId
+    {
+      get { return _areaId; }
+      set { _areaId = value; }
+    }
+    private global::ProtoBuf.IExtension extensionObject;
+    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
+      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
+  }
+  
   [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"ROLE_INFO")]
   public partial class ROLE_INFO : global::ProtoBuf.IExtensible
   {
@@ -193,39 +266,13 @@ namespace protocol.client
       set { _name = value; }
     }
 
-    private int _sex = default(int);
-    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"sex", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
+    private int _areaId = default(int);
+    [global::ProtoBuf.ProtoMember(3, IsRequired = false, Name=@"areaId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
     [global::System.ComponentModel.DefaultValue(default(int))]
-    public int sex
+    public int areaId
     {
-      get { return _sex; }
-      set { _sex = value; }
-    }
-
-    private int _faceIconId = default(int);
-    [global::ProtoBuf.ProtoMember(4, IsRequired = false, Name=@"faceIconId", DataFormat = global::ProtoBuf.DataFormat.TwosComplement)]
-    [global::System.ComponentModel.DefaultValue(default(int))]
-    public int faceIconId
-    {
-      get { return _faceIconId; }
-      set { _faceIconId = value; }
-    }
-    private global::ProtoBuf.IExtension extensionObject;
-    global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
-      { return global::ProtoBuf.Extensible.GetExtensionObject(ref extensionObject, createIfMissing); }
-  }
-  
-  [global::System.Serializable, global::ProtoBuf.ProtoContract(Name=@"MSG_CG_CREATE_ROLE")]
-  public partial class MSG_CG_CREATE_ROLE : global::ProtoBuf.IExtensible
-  {
-    public MSG_CG_CREATE_ROLE() {}
-    
-    private protocol.client.ROLE_INFO _roleInfo;
-    [global::ProtoBuf.ProtoMember(1, IsRequired = true, Name=@"roleInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
-    public protocol.client.ROLE_INFO roleInfo
-    {
-      get { return _roleInfo; }
-      set { _roleInfo = value; }
+      get { return _areaId; }
+      set { _areaId = value; }
     }
     private global::ProtoBuf.IExtension extensionObject;
     global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
@@ -244,8 +291,10 @@ namespace protocol.client
       get { return _result; }
       set { _result = value; }
     }
-    private protocol.client.ROLE_INFO _roleInfo;
-    [global::ProtoBuf.ProtoMember(2, IsRequired = true, Name=@"roleInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+
+    private protocol.client.ROLE_INFO _roleInfo = null;
+    [global::ProtoBuf.ProtoMember(2, IsRequired = false, Name=@"roleInfo", DataFormat = global::ProtoBuf.DataFormat.Default)]
+    [global::System.ComponentModel.DefaultValue(null)]
     public protocol.client.ROLE_INFO roleInfo
     {
       get { return _roleInfo; }
