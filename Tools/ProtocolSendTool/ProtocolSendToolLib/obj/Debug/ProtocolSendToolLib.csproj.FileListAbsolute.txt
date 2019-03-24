@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendToolLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendToolLib.pdb
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.pdb

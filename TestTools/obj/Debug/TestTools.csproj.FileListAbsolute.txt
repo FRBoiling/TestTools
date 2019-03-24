@@ -7,3 +7,10 @@ D:\ProjectA\TestTools\TestTools\obj\Debug\TestTools.pdb
 D:\ProjectA\bin\Debug\TestTools.exe.config
 D:\ProjectA\bin\Debug\TestTools.exe
 D:\ProjectA\bin\Debug\TestTools.pdb
+D:\GitHub\bin\Debug\TestTools.exe.config
+D:\GitHub\bin\Debug\TestTools.exe
+D:\GitHub\bin\Debug\TestTools.pdb
+D:\GitHub\TestTools\TestTools\obj\Debug\TestTools.csprojAssemblyReference.cache
+D:\GitHub\TestTools\TestTools\obj\Debug\TestTools.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\TestTools\obj\Debug\TestTools.exe
+D:\GitHub\TestTools\TestTools\obj\Debug\TestTools.pdb

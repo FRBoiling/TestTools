@@ -1,0 +1,6 @@
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolMethodsMaker.exe.config
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolMethodsMaker.exe
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolMethodsMaker.pdb
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolMethodsMaker\obj\Debug\ProtocolMethodsMaker.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolMethodsMaker\obj\Debug\ProtocolMethodsMaker.exe
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolMethodsMaker\obj\Debug\ProtocolMethodsMaker.pdb

@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\TimeLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\TimeLibrary.pdb
+E:\ProjectDL\trunk\Tools\CommonLibrarys\TimeLibrary\obj\Debug\TimeLibrary.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\CommonLibrarys\TimeLibrary\obj\Debug\TimeLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\TimeLibrary\obj\Debug\TimeLibrary.pdb

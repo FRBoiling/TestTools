@@ -1,0 +1,10 @@
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\GameObjectLib.dll
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\GameObjectLib.pdb
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\Message.ClientProtocol.dll
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\protobuf-net.dll
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\Message.ClientProtocol.pdb
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\protobuf-net.pdb
+E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\protobuf-net.xml
+E:\ProjectDL\trunk\Tools\GameObjectLib\obj\Debug\GameObjectLib.dll
+E:\ProjectDL\trunk\Tools\GameObjectLib\obj\Debug\GameObjectLib.pdb
+E:\ProjectDL\trunk\Tools\GameObjectLib\obj\Debug\GameObjectLib.csprojResolveAssemblyReference.cache

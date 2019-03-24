@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\CommonLibrarys\LogLibrary\bin\Debug\LogLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\LogLibrary\bin\Debug\LogLibrary.pdb
+E:\ProjectDL\trunk\Tools\CommonLibrarys\LogLibrary\obj\Debug\LogLibrary.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\CommonLibrarys\LogLibrary\obj\Debug\LogLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\LogLibrary\obj\Debug\LogLibrary.pdb

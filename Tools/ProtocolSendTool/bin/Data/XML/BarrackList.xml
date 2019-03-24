@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<!-- 被2011 rel. 2 sp1 (TeaM DJiNN) 使用XMLSpy vTeaM DJiNN编辑的 (http://www.altova.com) by -->
+<!-- edited by Leo (WanXin Games Co., Ltd) -->
+<idspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BarrackList">
+	<class id="1" name="1" ip="127.0.0.1" port="8880"/>
+	<!--<class id="2" name="2" GateIp="192.168.10.123" GatePort="8404"/>-->
+</idspace>

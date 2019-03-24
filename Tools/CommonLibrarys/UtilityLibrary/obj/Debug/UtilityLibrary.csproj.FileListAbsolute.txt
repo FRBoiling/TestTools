@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\UtilityLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\UtilityLibrary.pdb
+E:\ProjectDL\trunk\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.pdb
+E:\ProjectDL\trunk\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.csprojResolveAssemblyReference.cache

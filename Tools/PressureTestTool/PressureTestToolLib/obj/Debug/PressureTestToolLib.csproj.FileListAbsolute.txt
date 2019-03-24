@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\PressureTestTool\PressureTestToolLib\obj\Debug\PressureTestToolLib.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\PressureTestTool\bin\Debug\PressureTestToolLib.dll
+E:\ProjectDL\trunk\Tools\PressureTestTool\bin\Debug\PressureTestToolLib.pdb
+E:\ProjectDL\trunk\Tools\PressureTestTool\PressureTestToolLib\obj\Debug\PressureTestToolLib.dll
+E:\ProjectDL\trunk\Tools\PressureTestTool\PressureTestToolLib\obj\Debug\PressureTestToolLib.pdb

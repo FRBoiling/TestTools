@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolObjectParserLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolObjectParserLib.pdb
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolObjectParserLib\obj\Debug\ProtocolObjectParserLib.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolObjectParserLib\obj\Debug\ProtocolObjectParserLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolObjectParserLib\obj\Debug\ProtocolObjectParserLib.pdb

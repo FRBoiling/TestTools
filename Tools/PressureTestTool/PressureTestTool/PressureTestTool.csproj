@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F584428-93D1-4B8A-B451-3B7E70915238}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PressureTestTool</RootNamespace>
+    <AssemblyName>PressureTestTool</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EnumerateUtility">
+      <HintPath>..\..\..\Bin\Server\EnumerateUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Message.ClientProtocol">
+      <HintPath>..\..\..\Bin\Server\Message.ClientProtocol.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\Common\ThirdDlls\Protobuf-Net\ProtoGen\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Logger\Logger.csproj">
+      <Project>{4a3f1bdc-5897-4a06-a348-84587bd74a3e}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CommonLibrarys\CommunicationLibrary\CommunicationLibrary.csproj">
+      <Project>{974a81c1-ab2a-4aed-96c4-ff6559e68bb4}</Project>
+      <Name>CommunicationLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CommonLibrarys\ModelLibrary\ModelLibrary.csproj">
+      <Project>{ea52600b-973e-48c6-9fe3-43db80f4f63d}</Project>
+      <Name>ModelLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CommonLibrarys\TimeLibrary\TimeLibrary.csproj">
+      <Project>{babf6676-7139-467e-a2cb-2115d48f910a}</Project>
+      <Name>TimeLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CommonLibrarys\UtilityLibrary\UtilityLibrary.csproj">
+      <Project>{43004eba-a955-4211-b1f7-5d519f1212c2}</Project>
+      <Name>UtilityLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CommonLibrarys\XmlDataPropertyLibrary\XmlDataPropertyLibrary.csproj">
+      <Project>{4b80d34a-5086-4555-be3a-1280c44398d2}</Project>
+      <Name>XmlDataPropertyLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\GameObjectLib\GameObjectLib.csproj">
+      <Project>{f1d31dc0-9bff-4aef-85b0-16a930be3d19}</Project>
+      <Name>GameObjectLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NetPacketLib\NetPacketLib.csproj">
+      <Project>{c019327b-0448-40f0-8db8-6cd9ee8554f6}</Project>
+      <Name>NetPacketLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ProtocolMethodsMaker\ProtocolObjectParserLib\ProtocolObjectParserLib.csproj">
+      <Project>{cc37a37d-26cb-48a2-a96d-83526242fba9}</Project>
+      <Name>ProtocolObjectParserLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ProtocolMethodsMaker\ProtocolOperationLib\ProtocolOperationLib.csproj">
+      <Project>{6a698c7c-ee1d-420e-ac65-ee5d4c699a86}</Project>
+      <Name>ProtocolOperationLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PressureTestToolLib\PressureTestToolLib.csproj">
+      <Project>{76d160f7-5627-40e7-8471-4d91f4ca6292}</Project>
+      <Name>PressureTestToolLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

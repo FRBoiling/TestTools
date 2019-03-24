@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolCatchMsgLogLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolCatchMsgLogLib.pdb
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.pdb
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.csprojResolveAssemblyReference.cache

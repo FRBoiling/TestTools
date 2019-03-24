@@ -1,0 +1,5 @@
+E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\XmlDataPropertyLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\XmlDataPropertyLibrary.pdb
+E:\ProjectDL\trunk\Tools\CommonLibrarys\XmlDataPropertyLibrary\obj\Debug\XmlDataPropertyLibrary.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\CommonLibrarys\XmlDataPropertyLibrary\obj\Debug\XmlDataPropertyLibrary.dll
+E:\ProjectDL\trunk\Tools\CommonLibrarys\XmlDataPropertyLibrary\obj\Debug\XmlDataPropertyLibrary.pdb
