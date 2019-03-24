@@ -8,3 +8,13 @@ E:\ProjectDL\trunk\Tools\GameObjectLib\bin\Debug\protobuf-net.xml
 E:\ProjectDL\trunk\Tools\GameObjectLib\obj\Debug\GameObjectLib.dll
 E:\ProjectDL\trunk\Tools\GameObjectLib\obj\Debug\GameObjectLib.pdb
 E:\ProjectDL\trunk\Tools\GameObjectLib\obj\Debug\GameObjectLib.csprojResolveAssemblyReference.cache
+D:\GitHub\TestTools\Tools\GameObjectLib\bin\Debug\GameObjectLib.dll
+D:\GitHub\TestTools\Tools\GameObjectLib\bin\Debug\GameObjectLib.pdb
+D:\GitHub\TestTools\Tools\GameObjectLib\bin\Debug\Message.ClientProtocol.pdb
+D:\GitHub\TestTools\Tools\GameObjectLib\bin\Debug\protobuf-net.pdb
+D:\GitHub\TestTools\Tools\GameObjectLib\bin\Debug\protobuf-net.xml
+D:\GitHub\TestTools\Tools\GameObjectLib\obj\Debug\GameObjectLib.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\GameObjectLib\obj\Debug\GameObjectLib.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\GameObjectLib\obj\Debug\GameObjectLib.csproj.CopyComplete
+D:\GitHub\TestTools\Tools\GameObjectLib\obj\Debug\GameObjectLib.dll
+D:\GitHub\TestTools\Tools\GameObjectLib\obj\Debug\GameObjectLib.pdb

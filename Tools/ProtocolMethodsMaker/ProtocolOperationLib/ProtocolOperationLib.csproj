@@ -51,10 +51,6 @@
     <Compile Include="ProtoMsg.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\Logger\Logger.csproj">
-      <Project>{4a3f1bdc-5897-4a06-a348-84587bd74a3e}</Project>
-      <Name>Logger</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\CommonLibrarys\UtilityLibrary\UtilityLibrary.csproj">
       <Project>{43004eba-a955-4211-b1f7-5d519f1212c2}</Project>
       <Name>UtilityLibrary</Name>

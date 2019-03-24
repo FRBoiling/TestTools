@@ -62,9 +62,9 @@
     <Compile Include="Utils\IPv6SupportMidleware.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\Logger\Logger.csproj">
-      <Project>{4a3f1bdc-5897-4a06-a348-84587bd74a3e}</Project>
-      <Name>Logger</Name>
+    <ProjectReference Include="..\LogLibrary\LogLibrary.csproj">
+      <Project>{9d48ec3e-78ea-4b06-bce7-ec15e8cf835e}</Project>
+      <Name>LogLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\UtilityLibrary\UtilityLibrary.csproj">
       <Project>{43004eba-a955-4211-b1f7-5d519f1212c2}</Project>

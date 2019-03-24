@@ -2,19 +2,22 @@
 {
     public class VersionInfo
     {
-        public int versionId { get; set; }
-        public string versionName { get; set; }
-      
-        public VersionInfo()
+        private int id;
+        public int Id { get => id; }
+
+        public void SetId(int value)
         {
-            versionId = Constant.inst.version;
-            versionName = Constant.inst.versionName;
+            id = value;
         }
 
-        public VersionInfo GetVersion()
+        private string name;
+        public string Name { get => name;}
+
+        public void SetName(string value)
         {
-            return this;
+            name = value;
         }
+
 
     }
 }

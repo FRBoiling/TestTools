@@ -9,3 +9,7 @@ E:\ProjectDL\trunk\Tools\CommonLibrarys\ModelLibrary\bin\Debug\Logger.pdb
 E:\ProjectDL\trunk\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.csprojResolveAssemblyReference.cache
 E:\ProjectDL\trunk\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.dll
 E:\ProjectDL\trunk\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.pdb
+D:\GitHub\TestTools\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.dll
+D:\GitHub\TestTools\Tools\CommonLibrarys\ModelLibrary\obj\Debug\ModelLibrary.pdb

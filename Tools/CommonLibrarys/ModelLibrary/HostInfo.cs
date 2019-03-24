@@ -1,62 +1,22 @@
-﻿using System.Linq;
-using UtilityLibrary;
-
-namespace ModelLibrary
+﻿namespace ModelLibrary
 {
     public class HostInfo
     {
-        public string CurrntKey { get; set; }
-        public string CurrntIp { get; set; }
-        public int Port { get; set; }
-        public HostInfo()
+        private string key;
+
+        private string ip;
+
+        private int port;
+
+        public string Key { get => key; }
+        public string Ip { get => ip; }
+        public int Port { get => port; }
+
+        public HostInfo(string ip = "127.0.0.1", int port = 9001, string key = "")
         {
-            if (Constant.inst.notDefault)
-            {
-                GetHostInfo();
-            }
-            else
-            {
-                CurrntIp = Constant.ServerDefaultIp;
-                CurrntKey = Constant.ServerDefaultKey;
-                Port = Constant.DefaultPort;
-            }
+            this.key = key;
+            this.ip = ip;
+            this.port = port;
         }
-
-        public HostInfo(string ip, int port)
-        {
-            if (Constant.inst.notDefault)
-            {
-                GetHostInfo();
-            }
-            else
-            {
-                CurrntIp = ip;
-                CurrntKey = ip;
-                Port = port;
-            }
-        }
-
-
-        public HostInfo GetHostInfo()
-        {
-            int cout = Constant.inst.GateList.Count();
-            if (cout>0)
-            {
-                int index = NewRAND.Next(1, cout);
-                CurrntKey = Constant.inst.GateList[index].CurrntKey;
-                CurrntIp = Constant.inst.GateList[index].CurrntIp;
-                Port = Constant.inst.GateList[index].Port;
-            }
-            return this;
-        }
-
-        public HostInfo GetMasterHostInfo()
-        {
-            CurrntKey = Constant.inst.masterInfo.CurrntKey;
-            CurrntIp = Constant.inst.masterInfo.CurrntIp;
-            Port = Constant.inst.masterInfo.Port;
-            return this;
-        }
-
     }
 }

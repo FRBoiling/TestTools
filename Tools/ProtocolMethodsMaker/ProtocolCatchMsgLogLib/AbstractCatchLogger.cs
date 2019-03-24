@@ -7,8 +7,27 @@ using System.Threading.Tasks;
 
 namespace ProtocolCatchMsgLogLib
 {
-    public abstract class AbstractCatchLogger:IMsgCatchLogger
+    public abstract class AbstractCatchLogger : IMsgCatchLogger
     {
+        public void Init(string prefix, bool doConsolePrint, bool doFilePrint)
+        {
+            this.doConsolePrint = doConsolePrint;
+            this.doFilePrint = doFilePrint;
+            this.prefix = prefix;
+            if (doFilePrint)
+            {
+                handler = new LogFileHandler();
+                handler.InitNewLogFile(key, prefix);
+            }
+        }
+
+        protected virtual void WriteLog(object obj, ConsoleColor color, LogType type) {
+            Console.ForegroundColor = color;
+            Console.WriteLine(obj);
+            Console.ResetColor();
+        }
+
+
         protected string GetString(string format, params object[] args)
         {
             var sb = new StringBuilder();

@@ -1,5 +1,0 @@
-D:\ProjectA\TestTools\bin\Debug\Message.ClientProtocol.dll
-D:\ProjectA\TestTools\bin\Debug\Message.ClientProtocol.pdb
-D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.dll
-D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\Message.ClientProtocol.pdb
-D:\ProjectA\TestTools\ProtocolTestTool\ClientProtocolLib\obj\Debug\ClientProtocolLib.csprojResolveAssemblyReference.cache

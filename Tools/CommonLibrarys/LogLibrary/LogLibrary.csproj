@@ -42,10 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logger.cs" />
-    <Compile Include="LogLib\AbstractLog.cs" />
-    <Compile Include="LogLib\ILog.cs" />
-    <Compile Include="LogLib\Log.cs" />
+    <Compile Include="DefaultLogger.cs" />
+    <Compile Include="Core\AbstractLogger.cs" />
+    <Compile Include="DefaultTimeHandler.cs" />
+    <Compile Include="Core\ILogger.cs" />
+    <Compile Include="Core\ILogTimeHandler.cs" />
+    <Compile Include="Core\Log.cs" />
+    <Compile Include="Core\LogColor.cs" />
+    <Compile Include="Core\LogString.cs" />
+    <Compile Include="Core\LogType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

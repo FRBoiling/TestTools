@@ -1,5 +1,0 @@
-D:\NewProject\Trunk\TestTool\bin\Debug\ProtoBuffProtocolLibrary.dll
-D:\NewProject\Trunk\TestTool\bin\Debug\ProtoBuffProtocolLibrary.pdb
-D:\NewProject\Trunk\TestTool\ProtoBuffProtocolLibrary\obj\Debug\ProtoBuffProtocolLibrary.csprojResolveAssemblyReference.cache
-D:\NewProject\Trunk\TestTool\ProtoBuffProtocolLibrary\obj\Debug\ProtoBuffProtocolLibrary.dll
-D:\NewProject\Trunk\TestTool\ProtoBuffProtocolLibrary\obj\Debug\ProtoBuffProtocolLibrary.pdb

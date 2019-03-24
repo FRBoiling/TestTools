@@ -30,3 +30,7 @@ E:\ProjectDL\trunk\Tools\ProtocolSendTool\TestClient\bin\Debug\Message.ClientPro
 E:\ProjectDL\trunk\Tools\ProtocolSendTool\TestClient\bin\Debug\ProtocolCatchMsgLogLib.pdb
 E:\ProjectDL\trunk\Tools\ProtocolSendTool\TestClient\obj\Debug\TestClient.exe
 E:\ProjectDL\trunk\Tools\ProtocolSendTool\TestClient\obj\Debug\TestClient.pdb
+D:\GitHub\TestTools\Tools\ProtocolSendTool\TestClient\obj\Debug\TestClient.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\ProtocolSendTool\TestClient\obj\Debug\TestClient.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\ProtocolSendTool\TestClient\obj\Debug\TestClient.exe
+D:\GitHub\TestTools\Tools\ProtocolSendTool\TestClient\obj\Debug\TestClient.pdb

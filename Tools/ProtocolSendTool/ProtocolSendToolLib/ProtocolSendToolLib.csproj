@@ -55,10 +55,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Common\Logger\Logger.csproj">
-      <Project>{4a3f1bdc-5897-4a06-a348-84587bd74a3e}</Project>
-      <Name>Logger</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\CommonLibrarys\CommunicationLibrary\CommunicationLibrary.csproj">
       <Project>{974a81c1-ab2a-4aed-96c4-ff6559e68bb4}</Project>
       <Name>CommunicationLibrary</Name>

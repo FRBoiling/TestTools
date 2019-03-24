@@ -3,3 +3,10 @@ E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolCatchMsgLogLib.p
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.dll
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.pdb
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.csprojResolveAssemblyReference.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.dll
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.pdb
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolCatchMsgLogLib.dll
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolCatchMsgLogLib.pdb
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\obj\Debug\ProtocolCatchMsgLogLib.csproj.CopyComplete

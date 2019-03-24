@@ -3,3 +3,10 @@ E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolOperationLib.pdb
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.csprojResolveAssemblyReference.cache
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.dll
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.pdb
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolOperationLib.dll
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Debug\ProtocolOperationLib.pdb
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.csproj.CopyComplete
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.dll
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\ProtocolOperationLib\obj\Debug\ProtocolOperationLib.pdb

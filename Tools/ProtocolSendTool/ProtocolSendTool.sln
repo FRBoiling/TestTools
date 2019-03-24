@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolSendTool", "ProtocolSendTool\ProtocolSendTool.csproj", "{CA6B7C70-1E9A-4704-AD38-3DAC28BA20B7}"
 EndProject
@@ -29,13 +29,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameObjectLib", "..\GameObj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolObjectLib", "..\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\ProtocolObjectLib.csproj", "{E549F63F-393C-421A-A6A1-0F6E19545D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "..\..\Common\Logger\Logger.csproj", "{4A3F1BDC-5897-4A06-A348-84587BD74A3E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolCatchMsgLogLib", "..\ProtocolMethodsMaker\ProtocolCatchMsgLogLib\ProtocolCatchMsgLogLib.csproj", "{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoUtility", "..\..\Common\CryptoUtility\CryptoUtility.csproj", "{320A44A4-CE5A-40CB-B3BD-54CFA954280A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClient", "TestClient\TestClient.csproj", "{95018C2E-1815-44AD-89E1-02B79D499002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogLibrary", "..\CommonLibrarys\LogLibrary\LogLibrary.csproj", "{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -110,27 +108,24 @@ Global
 		{E549F63F-393C-421A-A6A1-0F6E19545D61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E549F63F-393C-421A-A6A1-0F6E19545D61}.x64|Any CPU.ActiveCfg = Release|Any CPU
 		{E549F63F-393C-421A-A6A1-0F6E19545D61}.x64|Any CPU.Build.0 = Release|Any CPU
-		{4A3F1BDC-5897-4A06-A348-84587BD74A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A3F1BDC-5897-4A06-A348-84587BD74A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A3F1BDC-5897-4A06-A348-84587BD74A3E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A3F1BDC-5897-4A06-A348-84587BD74A3E}.x64|Any CPU.ActiveCfg = x64|Any CPU
-		{4A3F1BDC-5897-4A06-A348-84587BD74A3E}.x64|Any CPU.Build.0 = x64|Any CPU
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}.x64|Any CPU.ActiveCfg = Release|Any CPU
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7}.x64|Any CPU.Build.0 = Release|Any CPU
-		{320A44A4-CE5A-40CB-B3BD-54CFA954280A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{320A44A4-CE5A-40CB-B3BD-54CFA954280A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{320A44A4-CE5A-40CB-B3BD-54CFA954280A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{320A44A4-CE5A-40CB-B3BD-54CFA954280A}.x64|Any CPU.ActiveCfg = x64|Any CPU
 		{95018C2E-1815-44AD-89E1-02B79D499002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95018C2E-1815-44AD-89E1-02B79D499002}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95018C2E-1815-44AD-89E1-02B79D499002}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95018C2E-1815-44AD-89E1-02B79D499002}.Release|Any CPU.Build.0 = Release|Any CPU
 		{95018C2E-1815-44AD-89E1-02B79D499002}.x64|Any CPU.ActiveCfg = Release|Any CPU
 		{95018C2E-1815-44AD-89E1-02B79D499002}.x64|Any CPU.Build.0 = Release|Any CPU
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}.x64|Any CPU.ActiveCfg = Release|Any CPU
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E}.x64|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +139,9 @@ Global
 		{43004EBA-A955-4211-B1F7-5D519F1212C2} = {2AB03021-73AF-4537-9A69-FCDFE00C9EE6}
 		{E549F63F-393C-421A-A6A1-0F6E19545D61} = {55FA653D-C3CE-4FF5-9BF5-17A6AB6E1034}
 		{F5BE3261-259D-44FE-8E1C-A279D9B5F7E7} = {55FA653D-C3CE-4FF5-9BF5-17A6AB6E1034}
-		{320A44A4-CE5A-40CB-B3BD-54CFA954280A} = {2AB03021-73AF-4537-9A69-FCDFE00C9EE6}
+		{9D48EC3E-78EA-4B06-BCE7-EC15E8CF835E} = {2AB03021-73AF-4537-9A69-FCDFE00C9EE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D34E795-18D5-4056-A3FD-30545D5B19A2}
 	EndGlobalSection
 EndGlobal

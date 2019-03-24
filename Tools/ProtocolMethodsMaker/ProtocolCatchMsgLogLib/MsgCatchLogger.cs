@@ -33,7 +33,7 @@ namespace ProtocolCatchMsgLogLib
                 handler.InitNewLogFile(key,prefix);
             }
         }
-        private void WriteLog(object obj, ConsoleColor color, LogType type)
+        protected override void WriteLog(object obj, ConsoleColor color, LogType type)
         {
             DateTime now = DateTime.Now;
             try

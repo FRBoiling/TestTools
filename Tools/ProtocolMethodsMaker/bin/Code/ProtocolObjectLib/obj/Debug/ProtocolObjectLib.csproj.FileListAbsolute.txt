@@ -3,3 +3,7 @@ E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\bin\Debug\ProtocolObjectL
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.csprojResolveAssemblyReference.cache
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.dll
 E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.pdb
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.dll
+D:\GitHub\TestTools\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Debug\ProtocolObjectLib.pdb

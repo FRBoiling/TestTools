@@ -20,3 +20,7 @@ E:\ProjectDL\trunk\Tools\NetPacketLib\bin\Debug\Logger.pdb
 E:\ProjectDL\trunk\Tools\NetPacketLib\bin\Debug\ProtocolCatchMsgLogLib.pdb
 E:\ProjectDL\trunk\Tools\NetPacketLib\obj\Debug\NetPacketLib.dll
 E:\ProjectDL\trunk\Tools\NetPacketLib\obj\Debug\NetPacketLib.pdb
+D:\GitHub\TestTools\Tools\NetPacketLib\obj\Debug\NetPacketLib.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\NetPacketLib\obj\Debug\NetPacketLib.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\NetPacketLib\obj\Debug\NetPacketLib.dll
+D:\GitHub\TestTools\Tools\NetPacketLib\obj\Debug\NetPacketLib.pdb

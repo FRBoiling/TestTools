@@ -7,3 +7,10 @@ E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSen
 E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.csproj.GenerateResource.Cache
 E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.exe
 E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.pdb
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.MainForm.resources
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.Properties.Resources.resources
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.csproj.GenerateResource.cache
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.exe
+D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.pdb

@@ -20,7 +20,7 @@ public class IPv6SupportMidleware
 		#endif
 	}
 	
-	public static void getIPType(String serverIp, String serverPorts, out String newServerIp, out AddressFamily  mIPType)
+	public static void GetIPType(String serverIp, String serverPorts, out String newServerIp, out AddressFamily  mIPType)
 	{
 		mIPType = AddressFamily.InterNetwork;
 		newServerIp = serverIp;

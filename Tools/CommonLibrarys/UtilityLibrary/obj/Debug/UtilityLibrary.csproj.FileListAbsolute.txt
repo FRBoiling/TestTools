@@ -3,3 +3,7 @@ E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\UtilityLibrary.pdb
 E:\ProjectDL\trunk\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.dll
 E:\ProjectDL\trunk\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.pdb
 E:\ProjectDL\trunk\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.csprojResolveAssemblyReference.cache
+D:\GitHub\TestTools\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.dll
+D:\GitHub\TestTools\Tools\CommonLibrarys\UtilityLibrary\obj\Debug\UtilityLibrary.pdb
