@@ -1,0 +1,15 @@
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\App.deps.json
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\App.runtimeconfig.json
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\App.runtimeconfig.dev.json
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\App.dll
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\App.pdb
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\Model.dll
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\Model.pdb
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.AssemblyInfoInputs.cache
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.AssemblyInfo.cs
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.csproj.CopyComplete
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.dll
+D:\GitHub\TestTools\Server\App\obj\Debug\netcoreapp2.2\App.pdb
+D:\GitHub\TestTools\Server\App\bin\Debug\netcoreapp2.2\NLog.config
