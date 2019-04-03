@@ -11,6 +11,8 @@
 
   <ItemGroup>
     <Folder Include="Component\" />
+    <Folder Include="Network\KCP\" />
+    <Folder Include="Network\WebSocket\" />
   </ItemGroup>
 
 </Project>

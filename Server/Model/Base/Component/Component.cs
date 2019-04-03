@@ -71,16 +71,6 @@ namespace Model.Base
         protected Component()
         {
             this.InstanceId = IdGenerater.GenerateInstanceId();
-#if !SERVER
-            if (!this.GetType().IsDefined(typeof(HideInHierarchy), true))
-            {
-                this.GameObject = new GameObject();
-                this.GameObject.name = this.GetType().Name;
-                this.GameObject.layer = LayerNames.GetLayerInt(LayerNames.HIDDEN);
-                this.GameObject.transform.SetParent(Global.transform, false);
-                this.GameObject.AddComponent<ComponentView>().Component = this;
-            }
-#endif
         }
 
 
