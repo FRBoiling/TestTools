@@ -3,3 +3,8 @@
 ################################################################################
 
 /Server/.vs/RDServer/v15/Server/sqlite3/storage.ide-wal
+/Server/.vs/RDServer/v15/Server/sqlite3/storage.ide-shm
+/Server/.vs/RDServer/v15/Server/sqlite3/storage.ide
+/Server/.vs/RDServer/v15/Server/sqlite3/db.lock
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model.AppType
+namespace Model
 {
     public enum AppType
     {

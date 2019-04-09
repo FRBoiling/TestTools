@@ -10,9 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Component\" />
-    <Folder Include="Network\KCP\" />
-    <Folder Include="Network\WebSocket\" />
+    <Folder Include="Message\Network\KCP\" />
+    <Folder Include="Message\Network\WebSocket\" />
   </ItemGroup>
 
 </Project>
