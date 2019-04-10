@@ -1,7 +1,10 @@
 ﻿using Model.Base;
 using Model.Network;
+using Model.Network.TCP;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Net;
 using System.Text;
 
 namespace Model.Message
@@ -18,42 +21,47 @@ namespace Model.Message
 
         public IMessageDispatcher MessageDispatcher { get; set; }
 
-        public void Awake(NetworkProtocol protocol, int packetSize = Packet.PacketSizeLength2)
+        public void Awake(NetworkProtocolType protocol, int packetSize = Packet.PacketSizeLength2)
         {
-            switch (protocol)
-            {
-                case NetworkProtocol.KCP:
-                    this.Service = new KService() { Parent = this };
-                    break;
-                case NetworkProtocol.TCP:
-                    this.Service = new TService(packetSize) { Parent = this };
-                    break;
-                case NetworkProtocol.WebSocket:
-                    this.Service = new WService() { Parent = this };
-                    break;
-            }
+            //switch (protocol)
+            //{
+            //    case NetworkProtocolType.KCP:
+            //        this.Service = new KService() { Parent = this };
+            //        break;
+            //    case NetworkProtocolType.TCP:
+            //        this.Service = new TService(packetSize) { Parent = this };
+            //        break;
+            //    case NetworkProtocolType.WebSocket:
+            //        this.Service = new WService() { Parent = this };
+            //        break;
+            //}
+
+            this.Service = new TService(packetSize) { Parent = this };
+
         }
 
-        public void Awake(NetworkProtocol protocol, string address, int packetSize = Packet.PacketSizeLength2)
+        public void Awake(NetworkProtocolType protocol, string address, int packetSize = Packet.PacketSizeLength2)
         {
             try
             {
                 IPEndPoint ipEndPoint;
-                switch (protocol)
-                {
-                    case NetworkProtocol.KCP:
-                        ipEndPoint = NetworkHelper.ToIPEndPoint(address);
-                        this.Service = new KService(ipEndPoint, this.OnAccept) { Parent = this };
-                        break;
-                    case NetworkProtocol.TCP:
-                        ipEndPoint = NetworkHelper.ToIPEndPoint(address);
-                        this.Service = new TService(packetSize, ipEndPoint, this.OnAccept) { Parent = this };
-                        break;
-                    case NetworkProtocol.WebSocket:
-                        string[] prefixs = address.Split(';');
-                        this.Service = new WService(prefixs, this.OnAccept) { Parent = this };
-                        break;
-                }
+                //switch (protocol)
+                //{
+                //    case NetworkProtocolType.KCP:
+                //        ipEndPoint = NetworkHelper.ToIPEndPoint(address);
+                //        this.Service = new KService(ipEndPoint, this.OnAccept) { Parent = this };
+                //        break;
+                //    case NetworkProtocolType.TCP:
+                //        ipEndPoint = NetworkHelper.ToIPEndPoint(address);
+                //        this.Service = new TService(packetSize, ipEndPoint, this.OnAccept) { Parent = this };
+                //        break;
+                //    case NetworkProtocolType.WebSocket:
+                //        string[] prefixs = address.Split(';');
+                //        this.Service = new WService(prefixs, this.OnAccept) { Parent = this };
+                //        break;
+                //}
+                ipEndPoint = NetworkHelper.ToIPEndPoint(address);
+                this.Service = new TService(packetSize, ipEndPoint, this.OnAccept) { Parent = this };
             }
             catch (Exception e)
             {
