@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model.Message
+namespace Model.Opcode
 {
     public class OpcodeTypeComponent : Component
     {

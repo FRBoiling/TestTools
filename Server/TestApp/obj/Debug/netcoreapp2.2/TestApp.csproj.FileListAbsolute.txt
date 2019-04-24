@@ -1,0 +1,4 @@
+D:\GitHub\TestTools\Server\TestApp\obj\Debug\netcoreapp2.2\TestApp.csprojAssemblyReference.cache
+D:\GitHub\TestTools\Server\TestApp\obj\Debug\netcoreapp2.2\TestApp.csproj.CoreCompileInputs.cache
+D:\GitHub\TestTools\Server\TestApp\obj\Debug\netcoreapp2.2\TestApp.AssemblyInfoInputs.cache
+D:\GitHub\TestTools\Server\TestApp\obj\Debug\netcoreapp2.2\TestApp.AssemblyInfo.cs

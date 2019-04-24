@@ -49,9 +49,10 @@ namespace Model.Base
             globalLog.Fatal(message);
         }
 
-        //public static void Msg(object message)
-        //{
-        //    globalLog.Debug(MongoHelper.ToJson(message));
-        //}
+        public static void Msg(object message)
+        {
+            //TODO: protobuf 协议解析成str
+            globalLog.Debug(message.ToString());
+        }
     }
 }

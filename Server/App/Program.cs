@@ -2,7 +2,6 @@
 using System.Diagnostics;
 using System.Threading;
 using Model;
-using Model.AppType;
 using Model.Base;
 using NLog;
 

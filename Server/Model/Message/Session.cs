@@ -1,13 +1,15 @@
-﻿using Model.Base;
+﻿using Model.Async;
+using Model.Base;
 using Model.Helper;
 using Model.Network;
 using Model.Network.TCP;
+using Model.Opcode;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Text;
+using System.Threading;
 
 namespace Model.Message
 {
@@ -131,10 +133,10 @@ namespace Model.Message
                 object instance = opcodeTypeComponent.GetInstance(opcode);
                 message = this.Network.MessagePacker.DeserializeFrom(instance, memoryStream);
 
-                //if (OpcodeHelper.IsNeedDebugLogMessage(opcode))
-                //{
-                //    Log.Msg(message);
-                //}
+                if (OpcodeHelper.IsNeedDebugLogMessage(opcode))
+                {
+                    Log.Debug(StringHelper.MessageToStr(message));
+                }
             }
             catch (Exception e)
             {
@@ -155,8 +157,7 @@ namespace Model.Message
             Action<IResponse> action;
             if (!this.requestCallback.TryGetValue(response.RpcId, out action))
             {
-                //throw new Exception($"not found rpc, response message: {StringHelper.MessageToStr(response)}");
-                throw new Exception($"not found rpc, response message: {response.RpcId}");
+                throw new Exception($"not found rpc, response message: {StringHelper.MessageToStr(response)}");
             }
             this.requestCallback.Remove(response.RpcId);
 
@@ -244,6 +245,19 @@ namespace Model.Message
                 throw new Exception("session已经被Dispose了");
             }
 
+            if (OpcodeHelper.IsNeedDebugLogMessage(opcode))
+            {
+#if !SERVER
+                if (OpcodeHelper.IsClientHotfixMessage(opcode))
+                {
+                }
+                else
+#endif
+                {
+                    Log.Msg(message);
+                }
+            }
+
             MemoryStream stream = this.Stream;
 
             stream.Seek(Packet.MessageIndex, SeekOrigin.Begin);
@@ -254,6 +268,7 @@ namespace Model.Message
             opcodeBytes.WriteTo(0, opcode);
             Array.Copy(opcodeBytes, 0, stream.GetBuffer(), 0, opcodeBytes.Length);
 
+#if SERVER
 			// 如果是allserver，内部消息不走网络，直接转给session,方便调试时看到整体堆栈
 			if (this.Network.AppType == AppType.AllServer)
 			{
@@ -261,6 +276,7 @@ namespace Model.Message
 				session.Run(stream);
 				return;
 			}
+#endif
 
             this.Send(stream);
         }
