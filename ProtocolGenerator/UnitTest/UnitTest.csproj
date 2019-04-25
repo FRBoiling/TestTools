@@ -56,10 +56,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Google.Protobuf\Google.Protobuf.csproj">
-      <Project>{b42db28b-4e30-48d1-9610-98004938d3de}</Project>
-      <Name>Google.Protobuf</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ProtobufHelper\ProtobufHelper.csproj">
       <Project>{16d07577-3170-4992-bd12-70750fa4bcda}</Project>
       <Name>ProtobufHelper</Name>

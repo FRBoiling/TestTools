@@ -43,11 +43,5 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProtobufHelper.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Google.Protobuf\Google.Protobuf.csproj">
-      <Project>{b42db28b-4e30-48d1-9610-98004938d3de}</Project>
-      <Name>Google.Protobuf</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
