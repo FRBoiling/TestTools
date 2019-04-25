@@ -1,0 +1,9 @@
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.MainForm.resources
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.Properties.Resources.resources
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.csproj.GenerateResource.Cache
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendTool.exe.config
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendTool.exe
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendTool.pdb
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.exe
+E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendTool\obj\Debug\ProtocolSendTool.pdb

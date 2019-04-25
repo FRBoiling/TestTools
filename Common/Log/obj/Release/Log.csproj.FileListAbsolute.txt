@@ -1,5 +1,0 @@
-D:\ProjectA\TestTools\bin\Release\LibLog.dll
-D:\ProjectA\TestTools\bin\Release\LibLog.pdb
-D:\ProjectA\TestTools\Common\Log\obj\Release\Log.csprojResolveAssemblyReference.cache
-D:\ProjectA\TestTools\Common\Log\obj\Release\LibLog.dll
-D:\ProjectA\TestTools\Common\Log\obj\Release\LibLog.pdb

@@ -1,5 +1,0 @@
-D:\NewProject\Trunk\TestTool\bin\Debug\XmlDataPropertyLibrary.dll
-D:\NewProject\Trunk\TestTool\bin\Debug\XmlDataPropertyLibrary.pdb
-D:\NewProject\Trunk\TestTool\XmlDataPropertyLibrary\obj\Debug\XmlDataPropertyLibrary.dll
-D:\NewProject\Trunk\TestTool\XmlDataPropertyLibrary\obj\Debug\XmlDataPropertyLibrary.pdb
-D:\NewProject\Trunk\TestTool\XmlDataPropertyLibrary\obj\Debug\XmlDataPropertyLibrary.csprojResolveAssemblyReference.cache

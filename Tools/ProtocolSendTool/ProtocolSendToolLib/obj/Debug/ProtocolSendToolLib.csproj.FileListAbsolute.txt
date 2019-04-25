@@ -1,9 +1,0 @@
-E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendToolLib.dll
-E:\ProjectDL\trunk\Tools\ProtocolSendTool\bin\Debug\ProtocolSendToolLib.pdb
-E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.csprojResolveAssemblyReference.cache
-E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.dll
-E:\ProjectDL\trunk\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.pdb
-D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.csprojAssemblyReference.cache
-D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.csproj.CoreCompileInputs.cache
-D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.dll
-D:\GitHub\TestTools\Tools\ProtocolSendTool\ProtocolSendToolLib\obj\Debug\ProtocolSendToolLib.pdb

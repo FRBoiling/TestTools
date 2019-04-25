@@ -1,9 +1,0 @@
-E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\TcpLibrary.dll
-E:\ProjectDL\trunk\Tools\CommonLibrarys\bin\Debug\TcpLibrary.pdb
-E:\ProjectDL\trunk\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\CommunicationLibrary.csprojResolveAssemblyReference.cache
-E:\ProjectDL\trunk\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\TcpLibrary.dll
-E:\ProjectDL\trunk\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\TcpLibrary.pdb
-D:\GitHub\TestTools\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\CommunicationLibrary.csprojAssemblyReference.cache
-D:\GitHub\TestTools\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\CommunicationLibrary.csproj.CoreCompileInputs.cache
-D:\GitHub\TestTools\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\TcpLibrary.dll
-D:\GitHub\TestTools\Tools\CommonLibrarys\CommunicationLibrary\obj\Debug\TcpLibrary.pdb

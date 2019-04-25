@@ -1,5 +1,0 @@
-D:\ProjectA\TestTools\Common\DataObject\obj\Debug\DataObject.csprojResolveAssemblyReference.cache
-D:\ProjectA\TestTools\bin\Debug\DataObject.dll
-D:\ProjectA\TestTools\bin\Debug\DataObject.pdb
-D:\ProjectA\TestTools\Common\DataObject\obj\Debug\DataObject.dll
-D:\ProjectA\TestTools\Common\DataObject\obj\Debug\DataObject.pdb

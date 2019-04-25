@@ -1,0 +1,9 @@
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\bin\Release\ProtocolObjectLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\bin\Release\ProtocolObjectLib.pdb
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.csprojResolveAssemblyReference.cache
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.dll
+E:\ProjectDL\trunk\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.pdb
+D:\GitHub\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.csprojAssemblyReference.cache
+D:\GitHub\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.csproj.CoreCompileInputs.cache
+D:\GitHub\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.dll
+D:\GitHub\Tools\ProtocolMethodsMaker\bin\Code\ProtocolObjectLib\obj\Release\ProtocolObjectLib.pdb

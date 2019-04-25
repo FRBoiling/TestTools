@@ -1,6 +1,0 @@
-D:\ProjectA\TestTools\Common\bin\Release\LibUtil.dll
-D:\ProjectA\TestTools\Common\bin\Release\LibUtil.pdb
-D:\ProjectA\TestTools\Common\Util\obj\Release\LibUtil.dll
-D:\ProjectA\TestTools\Common\Util\obj\Release\LibUtil.pdb
-D:\ProjectA\TestTools\bin\Release\LibUtil.dll
-D:\ProjectA\TestTools\bin\Release\LibUtil.pdb

@@ -1,5 +1,0 @@
-E:\ProjectDL\trunk\Tools\PressureTestTool\PressureTestTool\obj\Debug\PressureTestTool.csprojResolveAssemblyReference.cache
-E:\ProjectDL\trunk\Tools\PressureTestTool\bin\Debug\PressureTestTool.exe
-E:\ProjectDL\trunk\Tools\PressureTestTool\bin\Debug\PressureTestTool.pdb
-E:\ProjectDL\trunk\Tools\PressureTestTool\PressureTestTool\obj\Debug\PressureTestTool.exe
-E:\ProjectDL\trunk\Tools\PressureTestTool\PressureTestTool\obj\Debug\PressureTestTool.pdb

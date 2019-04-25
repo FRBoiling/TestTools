@@ -1,5 +1,0 @@
-D:\NewProject\Trunk\TestTool\bin\Release\TimeLibrary.dll
-D:\NewProject\Trunk\TestTool\bin\Release\TimeLibrary.pdb
-D:\NewProject\Trunk\TestTool\TimeLibrary\obj\Release\TimeLibrary.csprojResolveAssemblyReference.cache
-D:\NewProject\Trunk\TestTool\TimeLibrary\obj\Release\TimeLibrary.dll
-D:\NewProject\Trunk\TestTool\TimeLibrary\obj\Release\TimeLibrary.pdb

@@ -1,4 +1,0 @@
-D:\NewProject\Trunk\TestTool\bin\Debug\LogLibrary.dll
-D:\NewProject\Trunk\TestTool\bin\Debug\LogLibrary.pdb
-D:\NewProject\Trunk\TestTool\LogLibrary\obj\Debug\LogLibrary.dll
-D:\NewProject\Trunk\TestTool\LogLibrary\obj\Debug\LogLibrary.pdb
