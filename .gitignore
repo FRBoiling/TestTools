@@ -8,3 +8,6 @@
 /Server/.vs/RDServer/v15/Server/sqlite3/db.lock
 /.vs/slnx.sqlite
 /.vs/ProjectSettings.json
+/.vs
+/CommonLibrarys/.vs/CommonLibrarys/v15
+/CommonLibrarys/bin
