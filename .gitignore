@@ -2,11 +2,9 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/.vs/VSWorkspaceState.json
-/.vs/TestTools/v16
-/.vs/TestTools/v15
-/.vs/slnx.sqlite-journal
+/Server/.vs/RDServer/v15/Server/sqlite3/storage.ide-wal
+/Server/.vs/RDServer/v15/Server/sqlite3/storage.ide-shm
+/Server/.vs/RDServer/v15/Server/sqlite3/storage.ide
+/Server/.vs/RDServer/v15/Server/sqlite3/db.lock
 /.vs/slnx.sqlite
 /.vs/ProjectSettings.json
-/CommonLibrarys/.vs/CommonLibrarys/v15
-/CommonLibrarys/bin
